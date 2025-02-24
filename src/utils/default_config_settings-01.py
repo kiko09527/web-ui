@@ -84,7 +84,7 @@ def update_ui_from_config(config_file):
         loaded_config = load_config_from_file(config_file.name)
         if isinstance(loaded_config, dict):
             return (
-                gr.update(value=loaded_config.get("agent_type", "自定义")),
+                gr.update(value=loaded_config.get("agent_type", "custom")),
                 gr.update(value=loaded_config.get("max_steps", 100)),
                 gr.update(value=loaded_config.get("max_actions_per_step", 10)),
                 gr.update(value=loaded_config.get("use_vision", True)),
