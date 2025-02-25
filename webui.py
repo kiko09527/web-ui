@@ -708,8 +708,7 @@ def create_ui(config, theme_name="Ocean"):
         with gr.Row():
             gr.Markdown(
                 """
-                # 懒人助手(AI智能版)
-                ### 用"懒人助手"控制你的浏览器
+                ###  "解放双手,用点子智慧！！！"
                 """,
                 elem_classes=["header-text"],
             )
